@@ -1,23 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-
+import IssueForm from './IssueForm';
+import IssueList from './IssueList';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1>My Issue Tracker</h1>
+     <IssueForm />
+     <IssueList />
     </div>
   );
 }
